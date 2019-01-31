@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Cat or Dog Flip</title>
+</head>
+<body>
+    <header>
+        <h1>Cat or Dog? Place your bets!</h1>
+        <h2 id="result-board">Feelin' Lucky?</h2>
+    </header>
+
+    <main>
+        <section id="image-container">
+            <img id="animal" class="hidden" src="" alt="some cats or dogs">
+        </section>
+
+        <form id="flip-form">
+            <label>
+                <input type="radio" name="animal" value="cat" checked> cat
+            </label>
+            <label>
+                <input type="radio" name="animal" value="dog" checked required> dog
+            </label>
+                <button>Click Me!</button>
+        </form>
+    </main>
+    <script type="module" src="src/index.js"></script>
+</body>
+</html>
