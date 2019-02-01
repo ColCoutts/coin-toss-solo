@@ -27,7 +27,7 @@ flipForm.addEventListener('submit', function(event){
     
     const userChoice = flipForm.elements.animal.value;
 
-    if(userChoice === false){
+    if(userChoice === animal){
         winText.textContent = 'winner';
     } else {
         loseText.textContent = 'loser';
